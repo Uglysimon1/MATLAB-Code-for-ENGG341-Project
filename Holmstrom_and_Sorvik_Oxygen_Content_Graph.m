@@ -26,7 +26,7 @@ plot(x_high, y_high_smooth, 'g-', 'LineWidth', 1.8);
 
 % Labels and legend
 xlabel('Time (Mins)');
-ylabel('% of Initital Weight');
+ylabel('% of Initial Weight');
 title('Oxygen Content Comparison');
 legend('Low Oxygen Content (0.00028%)', 'Medium Oxygen Content (0.105%)', 'High Oxygen Content (1.160%)', ...
        'Location', 'southwest');
