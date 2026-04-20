@@ -14,9 +14,9 @@ x_high = highData(:,1);
 y_high = highData(:,2);
 
 % Apply smoothing (you can adjust method and window size)
-y_low_smooth = smoothdata(y_low, 'gaussian', 20);
-y_med_smooth = smoothdata(y_med, 'gaussian', 20);
-y_high_smooth = smoothdata(y_high, 'gaussian', 20);
+y_low_smooth = smoothdata(y_low, 'gaussian', 10);
+y_med_smooth = smoothdata(y_med, 'gaussian', 10);
+y_high_smooth = smoothdata(y_high, 'gaussian', 10);
 
 % Create the plot
 figure;
