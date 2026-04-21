@@ -62,7 +62,7 @@ switch choice
         y1 = max(y1, eps);
         y2 = max(y2, eps);
 
-        yLabel = 'Kd (\mum year^{-1})';
+        yLabel = 'Degradation Rate (\mum year^{-1})';
         plotTitle = 'kd Graph: Degradation Rate vs Irradiance';
 
     otherwise
