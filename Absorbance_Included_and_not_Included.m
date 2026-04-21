@@ -50,8 +50,8 @@ switch choice
 
     case 2
         % ===== KD GRAPH =====
-        kd_with = (I .* M .* A_with) / (2 * E);
-        kd_without = (I .* M .* A_without) / (2 * E);
+        kd_with = (I .* M .* A_with) / (2 * E * rho);
+        kd_without = (I .* M .* A_without) / (2 * E * rho);
 
         kd_with = kd_with * conv;
         kd_without = kd_without * conv;
