@@ -30,8 +30,8 @@ plot(x3, y3, 'g-', 'LineWidth', 2);
 % Labels (improved typography)
 % ---------------------------
 xlabel('Year', 'FontSize', 12, 'FontWeight', 'bold');
-ylabel('Plastic Production (Million Tonnes)', 'FontSize', 12, 'FontWeight', 'bold');
-title('Projected Plastic Production by Sector (2020–2060)', ...
+ylabel('Plastic Waste (Million Tonnes)', 'FontSize', 12, 'FontWeight', 'bold');
+title('Projected Plastic Waste by Sector (2020–2060)', ...
     'FontSize', 14, 'FontWeight', 'bold');
 
 % ---------------------------
